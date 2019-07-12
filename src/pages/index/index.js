@@ -6,6 +6,7 @@ import Header from "../../components/header/index"
 import Banner2 from "../../components/banner2/index"
 
 
+
 class Index extends Component{
     constructor(props) {
         super(props);
@@ -15,8 +16,6 @@ class Index extends Component{
         return(
             <div>
                 <Header/>
-                <Banner2/>
-                index
                 <Map/>
                 <Link to="login">登陆</Link>
             </div>
