@@ -10,12 +10,14 @@ import Banner2 from "../../components/banner2/index"
 class Index extends Component{
     constructor(props) {
         super(props);
-
+        this.state={
+            name:1
+        }
     }
     render() {
         return(
             <div>
-                <Header/>
+                <Header name={this.state.name}/>
                 <Map/>
                 <Link to="login">登陆</Link>
             </div>

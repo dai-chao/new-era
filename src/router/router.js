@@ -11,9 +11,11 @@ class Router extends Component{
     constructor(props){
         super(props);
         this.state ={
+            name:{...this.props}
         }
     }
     render(){
+        console.log(this.state);
         return(
             <HashRouter>
                 <App>

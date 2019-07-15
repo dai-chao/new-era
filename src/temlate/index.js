@@ -9,12 +9,41 @@ class Index extends Component{
 
         }
     }
+    getDefaultProps(){
+        return{
+
+        }
+    }
+    getInitialState(){
+        return{
+
+        }
+    }
+    componentWillMount() {
+    }
     render() {
         return(
             <div>
 
             </div>
         )
+    }
+    componentDidMount() {
+    }
+    componentWillReceiveProps(nextProps, nextContext) {
+    }
+
+    shouldComponentUpdate(nextProps, nextState, nextContext) {
+
+    }
+    componentWillUpdate(nextProps, nextState, nextContext) {
+
+    }
+    componentDidUpdate(prevProps, prevState, snapshot) {
+
+    }
+    componentWillUnmount() {
+
     }
 }
 
