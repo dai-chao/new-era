@@ -1,0 +1,39 @@
+
+.money-box{
+    width: 100%;
+}
+.money{
+    width: 1200px;
+    height: 1000px;
+    background: #eeeeee;
+    margin: 0 auto;
+    margin-top: 67px;
+}
+.money .money-left{
+    width: 600px;
+    float: left;
+    height: 400px;
+    background: #55a532;
+}
+.money .money-right{
+    width: 600px;
+    float: left;
+    height: 400px;
+    background: #55a532;
+}
+.money .money-left{
+    background: #55a532;
+}
+.money .money-right{
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+

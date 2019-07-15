@@ -17,7 +17,6 @@ i,em{font-style:normal;}/* 清除默认倾斜 */
 .clear{zoom:1;}/* 兼容IE6 */
 
 html,body {
-  background: #e9e9e9;
   width: 100%;
   height: 100%;
   /*background-image: url("./images/ThinkFamily_Wallpaper.jpg");*/

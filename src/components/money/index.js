@@ -9,7 +9,6 @@ class Index extends Component{
 
         }
     }
-
     getInitialState(){
         return{
 
@@ -19,7 +18,16 @@ class Index extends Component{
     }
     render() {
         return(
-            <div>
+            <div className="money-box">
+                <div className="money">
+                    <div className="money-left">
+
+                    </div>
+
+                    <div className="money-right">
+
+                    </div>
+                </div>
 
             </div>
         )
