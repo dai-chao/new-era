@@ -1,0 +1,27 @@
+.loginHeaderWrap{
+    width: 100%;
+    height: 127px;
+    background:#fff;
+}
+.loginHeader{
+    width: 1200px;
+    height: 127px;
+    background: #fff;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+    .loginTitle h2{
+        font-size: 24px;
+        color: #333;
+        margin-bottom:10px;
+    }
+    .loginTitle p{
+        font-size: 14px;
+        color: #666;
+    }
+    .welcome-login{
+        font-size: 24px;
+        color:#BF1A20;
+    }

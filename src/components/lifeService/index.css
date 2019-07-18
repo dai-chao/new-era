@@ -1,0 +1,98 @@
+.life{
+    width:1200px;
+    margin: 0 auto;
+}
+.life .title{
+    text-align: center;
+    font-size: 26px;
+}
+    .Subtitle{
+        text-align: center;
+        color: #888888;
+        font-size: 14px;
+    }
+        .Subtitle .horizonLine{
+            display:inline-block;
+            width:130px;
+            height: 1px;
+            background: #888888;
+            vertical-align: middle;
+        }
+        .Subtitle span{
+            margin:6px 13px 35px 6px;
+        }
+.life .more a{
+    color: #BF1A20;
+    float: right;
+    font-size: 23px;
+    margin-bottom: 32px;
+}
+.life .info{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin-bottom:82px;
+}
+.life .item{
+    width:348px;
+    height: 452px;
+    border:2px solid #BF1A20;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+    margin-top: 42px;
+}
+.life .item button{
+    width:286px;
+    height:41px;
+    background: #BF1A20;
+    border: none;
+    outline: none;
+    color: #FFF;
+    border-radius: 7px;
+    margin-top:263px;
+    font-size: 21px;
+    font-weight: bold;
+}
+.life .item img{
+    position: absolute;
+    top:-42px;
+    width: 284px;
+    height:271px;
+}
+.life .item .item_txt{
+    font-size: 14px;
+    font-family:STSongti-SC-Regular;
+    line-height: 24px;
+    color: #333;
+    position: absolute;
+    bottom: 36px;
+    margin:0 24px;
+    text-align: left;
+    text-indent: 2em;
+}
+.life .verticalLine{
+    width:5px;
+    height:445px;
+    background:  #BF1A20 ;
+    position: relative;
+    margin-top: 42px;
+}
+    .life .verticalLine .circle{
+        width:18px;
+        height:18px;
+        background: #BF1A20;
+        border-radius: 50%;
+        position: absolute;
+    }
+    .life .verticalLine .circle1{
+        top:103px;
+        left:50%;
+        margin-left:-9px;
+    }
+    .life .verticalLine .circle2{
+        bottom:124px;
+        left:50%;
+        margin-left:-9px;
+    }
+

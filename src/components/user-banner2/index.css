@@ -1,0 +1,47 @@
+
+.user-record-banner .swiper-container {
+    width: 100%;
+    height: 145px;
+}
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #ccc;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.user-record-banner .swiper-button-next,.user-record-banner .swiper-button-prev{
+    width:20px;
+    height: 40px;
+    background: #000;
+    opacity: 0.45;
+    position: absolute;
+    top:50%;
+    margin-top: -20px;
+}
+.user-record-banner .swiper-button-next{
+    background-image: url('../../images/user/icon_rightarrowhead.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.user-record-banner .swiper-button-prev{
+    background-image: url('../../images/user/icon_sleftarrowhead.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.swiper-button-next{
+    right:0;
+}
+.swiper-button-prev{
+    left:0;
+}

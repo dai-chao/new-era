@@ -42,7 +42,6 @@ class Platform extends Component{
                     <div className="plat-con">
                         <img  className="plat-img" src={require("../../images/index/announcement_picturse.png")} alt=""/>
                     </div>
-
                     <ul className="plat-news">
                         {
                             this.state.news.map((item,index)=>{

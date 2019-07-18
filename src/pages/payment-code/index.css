@@ -1,0 +1,123 @@
+
+
+.registeredSuccessfully{
+    width: 100%;
+}
+.loginHeaderWrap{
+    width: 100%;
+    height: 127px;
+    background:#fff;
+    box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+}
+.loginHeader{
+    width: 1200px;
+    height: 127px;
+    background: #fff;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.loginTitle h2{
+    font-size: 24px;
+    color: #333;
+    margin-bottom:10px;
+}
+.loginTitle p{
+    font-size: 14px;
+    color: #666;
+}
+.welcome-login{
+    font-size: 24px;
+    color:#BF1A20;
+}
+
+
+
+.payment-warp{
+    width: 100%;
+    margin-top: 3px;
+    overflow: hidden;
+}
+.payment{
+    width:1200px;
+    height:753px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    border-radius:3px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.payment-item{
+    text-align: center;
+    padding-left:21px;
+    width:453px;
+    height:58px;
+    border:1px solid rgba(0,0,0,1);
+    margin: 0 auto;
+    margin-bottom: 22px;
+    opacity:0.1;
+    border-radius:5px;
+}
+.payment-item input{
+    width:426px;
+    height:56px;
+
+    border:none;
+}
+.payment h2{
+    width: 100%;
+    text-align: center;
+    font-size:28px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color:rgba(51,51,51,1);
+    margin-bottom: 59px;
+}
+.payment-browsers{
+    text-align: center;
+    margin-bottom: 20px;
+}
+/*::-webkit-input-placeholder {*/
+/*    text-indent: 0.8em;*/
+/*}*/
+.payment-tips{
+    text-align: left;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    color: #999;
+    width: 453px;
+    margin:0 auto;
+}
+.save-btn{
+    text-align: center;
+    margin-top:40px;
+}
+.save-btn button{
+    width:453px;
+    height:58px;
+    background:#BF1A20;
+    color: #fff;
+    outline: none;
+    border:none;
+    border-radius: 5px;
+}
+/*antd样式*/
+
+.ant-select {
+    width:453px;
+    height:58px;
+}
+.ant-select-selection--single{
+    height: 58px;
+}
+.ant-select-selection__rendered{
+    line-height: 58px;
+}
+
+
+
+
+

@@ -1,0 +1,118 @@
+
+.house-keep-wrap{
+    width: 100%;
+}
+.house-keep{
+    width: 1200px;
+    height: 588px;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 79px;
+    overflow: hidden;
+    margin-bottom: 70px;
+}
+
+.house-keep h2{
+    width: 100%;
+    text-align: center;
+    font-size:25px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+}
+.house-keep .house-keep-platTitle{
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding-left: 345px;
+}
+.house-keep .house-keep-platTitle li{
+    float: left;
+}
+.house-keep .house-keep-platTitle li:nth-child(1){
+    width:130px;
+    border-top:1px solid rgba(170,170,170,1);
+    margin-top: 17px;
+}
+.house-keep .house-keep-platTitle li:nth-child(2){
+    width:220px;
+    height:16px;
+    font-size:14px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(136,136,136,1);
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 8px;
+}
+.house-keep .house-keep-platTitle li:nth-child(3){
+    width:130px;
+    border-top:1px solid rgba(170,170,170,1);
+    margin-top: 17px;
+}
+.house-keep .gengduo {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    text-align: right;
+    font-size: 23px;
+    font-family: MicrosoftYaHei;
+    font-weight: 400;
+    color: rgba(191, 26, 32, 1);
+    padding-right: 21px;
+}
+.house-keep-cont{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+.house-keep-cont .keep-bor{
+    flex: 1;
+    background: #fff;
+
+}
+.house-keep-cont div .house-keep-cont-img{
+    width: 332px;
+    height: 274px;
+    margin-top: 43px;
+    border:2px solid rgba(191,26,32,1);
+}
+.house-keep-cont div .house-keep-cont-img img{
+    margin-top: 16px;
+    margin-left: 17px;
+}
+.keep-icon span:nth-child(1){
+    display: inline-block;
+    margin-right: 8px;
+    margin-top: 10px;
+}
+.keep-icon span:nth-child(2){
+    font-size:17px;
+    font-family:MicrosoftYaHei-Bold;
+    font-weight:bold;
+    color:rgba(191,26,32,1);
+}
+.keep-txt{
+    margin-top: 14px;
+}
+.keep-txt p{
+    width:317px;
+    height:61px;
+    font-size:14px;
+    font-family:STSongti-SC-Regular;
+    font-weight:400;
+    color:rgba(51,51,51,1);
+    line-height:24px;
+    text-indent: 2rem;
+}
+#house-keep-cont-img{
+    margin-top: 13px;
+}
+#keep-icon{
+
+}
+#keep-txt{
+    margin-top: 63px;
+    margin-bottom: 13px;
+}
+
+

@@ -3,15 +3,10 @@ import { withRouter , Link } from "react-router-dom"
 import Map from "../map/map"
 import "./index.css"
 
-
-
-
-
 class Header extends Component{
-
     getInitialState(){
         return{
-            name:11
+
         }
     }
     constructor(props){
@@ -22,9 +17,25 @@ class Header extends Component{
     }
 
     componentWillMount() {
+
+        function getCookie(name){
+            var arr = document.cookie.split(";");
+            for(var i = 0; i < arr.length; i++){
+                var cur = arr[i].replace(/^\s*/g,"");
+                var str = cur.split("=");
+                if(str[0] == name){
+                    return str[1];
+                }
+            }
+            return "";
+        }
+
+        let cok = getCookie("代超");
+        this.state.loginType = cok;
     }
 
     render() {
+        console.log(this.state);
         return(
             <div className="headerWarp">
                 <div className="header">
@@ -36,6 +47,7 @@ class Header extends Component{
                         <li>保险</li>
                         <li>
                             更多
+                            <img src={require("../../images/index/icon_home_down.png")} alt="" className="icon"/>
                             <ul className="navList">
                                 <li>
                                     <a href="">医疗保健</a>
@@ -58,7 +70,7 @@ class Header extends Component{
                             <input type="text" placeholder="请输入你想要了解服务/讯息等"/>
                             <img src={require("../../images/index/icon_home_search.png")} alt=""/>
                         </li>
-                        <li>
+                        <li id="nav-map">
                             <span>
                                 <img src={require("../../images/index/icon_home_map.png")} alt=""/>
                             </span>
@@ -66,7 +78,18 @@ class Header extends Component{
                                 <Map/>
                             </span>
                         </li>
-                        <li className="icon-my-box">
+
+                        <li className="login-box">
+                            <Link to="/login?type=1">
+                                登陆
+                            </Link>
+                            <span></span>
+                            <Link className="zhuce" to="/login?type=2">
+                                注册
+                            </Link>
+                        </li>
+
+                        <li className="icon-my-box" id="icon-my-box">
                             <span id="icon-my">
                                 <img src={require("../../images/index/icon_home_my.png")} alt=""/>
                             </span>
@@ -74,6 +97,7 @@ class Header extends Component{
                                 王老师
                             </span>
                         </li>
+
                     </ul>
                 </div>
 
@@ -81,6 +105,16 @@ class Header extends Component{
         )
     }
     componentDidMount() {
+        var loginType =document.getElementById("icon-my-box");
+        var logintype = document.getElementsByClassName("login-box")[0];
+        console.log(logintype);
+        if(this.state.loginType === "true"){
+            loginType.style.display = "block";
+            logintype.style.display = "none"
+        }else {
+            logintype.style.display = "block";
+            loginType.style.display = "none"
+        }
     }
     componentWillReceiveProps(nextProps, nextContext) {
     }

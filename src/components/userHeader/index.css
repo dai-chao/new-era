@@ -1,0 +1,78 @@
+.user-headerWrap{
+    width: 100%;
+    background: #E3E4E6;
+    height: 126px;
+}
+    .user-header{
+        width: 1200px;
+        background: #E3E4E6;
+        height: 126px;
+        margin: 0 auto;
+    }
+    .user-title{
+        margin-right: 59px;
+        float: left;
+    }
+        .user-title h2{
+            color: #333;
+            font-size:24px;
+            font-family:MicrosoftYaHei;
+            margin-top: 38px;
+        }
+        .user-title p{
+            font-size: 14px;
+            color: #666;
+        }
+    .user-search{
+        position: relative;
+        display: flex;
+        align-items: center;
+        float: left;
+        margin-top: 42px;
+        margin-right: 60px;
+    }
+    .user-search input{
+        width: 301px;
+        height: 44px;
+        outline: none;
+        border:none;
+    }
+    .user-search .search-icon{
+        width:52px;
+        height:44px;
+        background:#BF1A20;
+        line-height: 44px;
+        text-align: center;
+    }
+    .user-map{
+        float: left;
+        display: flex;
+        line-height: 126px;
+        align-items: center;
+    }
+        .user-map img{
+            width:20px;
+            height:27px;
+            margin-right: 8px;
+        }
+    .user-cart{
+        float: left;
+        margin-top: 45px;
+        margin-left: 51px;
+        width:138px;
+        height:37px;
+        border: 1px solid #BF1A20;
+        border-radius:19px;
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        color: #999;
+        padding: 0 21px;
+        justify-content: space-between;
+    }
+    .back-index{
+        float: right;
+        line-height: 126px;
+        font-size: 16px;
+        color: #333;
+    }

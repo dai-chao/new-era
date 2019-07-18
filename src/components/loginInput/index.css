@@ -1,0 +1,48 @@
+.phoneNumber,.authCode{
+    position: relative;
+    display: flex;
+}
+.phoneNumber{
+    margin-bottom:20px;
+}
+    .name-icon,.code-icon{
+        width:63px;
+        height: 58px;
+        background: #EEEEEE;
+        text-align: center;
+        line-height: 58px;
+    }
+        input{
+            outline: none;
+        }
+    ::-webkit-input-placeholder {
+            text-indent: 0.7em;
+            font-size: 14px;
+        }
+       .phoneNum{
+            width: 390px;
+            height: 58px;
+            border:1px solid#E5E5E5 ;
+        }
+        .codeNum{
+            width:173px;
+            height: 58px;
+            border:1px solid #E5E5E5;
+        }
+.clice-code{
+    width:197px;
+    height:58px;
+    background:#BF1A20;
+    font-size: 16px; 
+    outline:none;
+    border:none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.Codeclicked{
+    background: #eee;
+    color: #999;
+}

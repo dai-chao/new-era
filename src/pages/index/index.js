@@ -7,6 +7,12 @@ import Banner from "../../components/banner1/index"
 import Platform from "../../components/platform/index"
 import Shopping from "../../components/shopping/index"
 import Money from "../../components/money/index"
+import Footer from "../../components/footer/index"
+import Legal from "../../components/legal/index"
+import Travel from "../../components/travelService/index"
+import Life from "../../components/lifeService/index"
+import HouseKeep from "../../components/houseKeep/index"
+
 
 class Index extends Component{
     constructor(props) {
@@ -27,7 +33,17 @@ class Index extends Component{
                 <Shopping/>
                 <div className="clear"></div>
                 <Money/>
-                <Link to="login">登陆</Link>
+                <div className="clear"></div>
+                <HouseKeep/>
+                <div className="clear"></div>
+                <Life/>
+                <div className="clear"></div>
+                <Travel/>
+                <div className="clear"></div>
+                <Legal/>
+                <div className="clear"></div>
+                <Footer/>
+
             </div>
         )
     }

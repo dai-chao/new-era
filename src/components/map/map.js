@@ -34,12 +34,12 @@ class Map extends Component{
         })
             .then(function (response) {
                 let address = response.data.province;
-                console.log(address);
+                // console.log(address);
                 that.state={
                     address:address
                 };
                 that.setState({address: address});
-                setCookie("代超",address,1);
+                // setCookie("代超",address,1);
             })
             .catch(function (error) {
                 console.log(error);
@@ -58,7 +58,7 @@ class Map extends Component{
         )
     }
     componentDidMount() {
-        console.log(this.state);
+        // console.log(this.state);
 
     }
 }

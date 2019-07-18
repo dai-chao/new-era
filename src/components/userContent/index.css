@@ -1,0 +1,142 @@
+.user-content{
+    width: 1200px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.order-record{
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+}
+    .userInfo,.my-oldCard,.myAccount,.user-order,.user-record{
+        width:301px;
+        height:320px;
+        background:rgba(255,255,255,1);
+        border:1px solid rgba(191,191,191,1);
+        box-shadow:0px 0px 8px 0px rgba(0, 0, 0, 0.1);
+    }
+    .userInfo{
+        text-align: center;
+    }
+    .user-card img{
+        margin:24px 0 20px 0;
+    }
+.info-title a{
+    font-size: 18px;
+    color: #0066CC;
+}
+    .my-oldCard{
+        width:321px;
+        text-align: center;
+    }
+        .my-oldCard img{
+            margin:16px 0 31px 0;
+        }
+        .my-oldCard a{
+            color: #01B04F;
+        }
+    .myAccount{
+        width: 497px;
+    }
+    .info-title{
+        margin: 20px 20px 0 19px;
+        display: flex;
+        justify-content: space-between;
+    }
+        .info-title h3{
+            font-size: 22px;
+            color: #BF1A20;
+            font-family:MicrosoftYaHei;
+        }
+    .user-handle a{
+        font-size: 18px;
+        color:#0066CC;
+    }
+    .oldCard-handle{
+        margin:0 53px 0 61px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .account-info{
+        display: flex;
+        margin:0 81px 0 85px;
+        justify-content: space-between;
+        font-size: 18px;
+    }
+    .account-info .num{
+        margin-bottom: 32px;
+        color: #BF1A20;
+        font-size:40px;
+        font-family:MicrosoftYaHei-Bold;
+    }
+        .account-info .integral,.account-info .balance{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    .account-handle{
+        margin-left: 63px;
+        margin-top: 88px;
+    }
+    .account-handle .use-now{
+        margin:0 103px 0 53px;
+    }
+    .user-order{
+        width:663px;
+    }
+    .user-record{
+        width: 497px;
+    }
+        .user-record a{
+            font-size:16px;
+            font-family:MicrosoftYaHei;
+            color: #666;
+        }
+    .user-recomment{
+        text-align: center;
+        font-size:24px;
+        font-family:MicrosoftYaHei;
+        margin: 20px 0 40px 0;
+    }
+.user-banner-wrap{
+    width:1200px;
+    height: 379px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.user-record-banner{
+    width:497px;
+    height: 197px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    margin-top: 37px;
+}
+.user-order .order-list{
+    display: flex;
+    justify-content: space-between;
+    margin: 46px 41px 0 41px;
+    text-align: center;
+}
+.order-item p{
+    cursor: pointer;
+    font-size:18px;
+    font-family:MicrosoftYaHei;
+    margin-top: 45px;
+}
+.user-record-banner .swiper-pagination-bullet{
+    width: 12px!important;
+    height: 12px!important;
+    /*background: #BFBFBF!important;*/
+    border: none!important;
+}
+/*.user-record-banner{*/
+/*    position: relative;*/
+/*}*/
+/*.user-record-banner .swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction{*/
+/*    bottom:0;*/
+/*    position: absolute;*/
+/*}*/

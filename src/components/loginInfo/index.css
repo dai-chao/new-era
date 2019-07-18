@@ -1,0 +1,127 @@
+.req-info{
+    width: 100%;
+    height: 655px;
+    background: url('../../pages/register/images/banner.png')no-repeat;
+    background-size: cover;
+    position: relative;
+}
+    .req-content{
+        width: 1200px;
+        margin: 0 auto;
+    } 
+        .req-info .fill-box{
+            background: #fff;
+            width:493px;
+            height:476px;
+            float: right;
+            border-radius: 5px;
+            margin-top:89px;
+            padding:62px 20px;
+        }
+.btn{
+    width:453px;
+    height:58px;
+    background: #BF1A20;
+    color:#fff;
+    border-radius:5px;
+    outline: none;
+    border:none;
+}
+.agreeMent{
+    display:flex;
+    justify-content: flex-start;
+    margin: 21px 0 34px 0;
+}
+.tips-color{
+    color:#BF1A20;
+    font-size: 14px;
+}
+.select-agree{
+    width:24px;
+    height: 24px;
+    background:#eee;
+    margin-right: 12px;
+}
+.req-now{
+    margin:22px 0 36px 0;
+}
+.agree-txt{
+    cursor: pointer;
+}
+/* antd样式 */
+.ant-tabs-nav{
+    border-bottom: 9px solid #eee;
+    position: relative;
+}
+.ant-tabs-nav .ant-tabs-tab{
+    font-size: 24px;
+    color:#999999;
+}
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: #333333;
+}
+.ant-tabs-nav .ant-tabs-tab-active{
+    color: #333333;
+}
+.ant-tabs-ink-bar{
+    /*display: none!important;*/
+    position: absolute;
+    bottom: -9px;
+    height: 9px;
+    background: #BF1A20;
+    width: 100px!important;
+}
+/*.ant-tabs-tab{*/
+/*    border-bottom: 9px solid #BF1A20;*/
+/*}*/
+.ant-tabs-bar{
+   border:none;
+   text-align: center;
+} 
+/* .off{
+    display: none;
+} */
+.agree-alert{
+    width:1200px;
+    height: 566px;
+    background: #fff;
+    position: absolute;
+    top:34px;
+    border-radius: 3px;
+    padding:0 21px 0 19px;
+}
+    .agree-title{
+        border-bottom: 1px solid #000;
+        display: flex;
+        justify-content: space-between;
+        height: 63px;
+        line-height: 63px;
+    }
+    .agree-info{
+        height: 351px;
+        margin-top: 19px;
+    }
+    .agree-title h2{
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .agree-title .close-btn{
+        color: #999;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    .agree-continue{
+        text-align: center;
+    }
+    .continue-btn{
+        width:261px;
+        height:74px;
+        background: #BF1A20;
+        color: #fff;
+        font-size: 24px;
+        outline: none;
+        border:none;
+    }
+    .off{
+        display: none;
+    }

@@ -1,0 +1,44 @@
+.travel{
+    width: 1200px;
+    margin:0 auto;
+}
+.travel::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+.travel .title{
+    text-align: center;
+    font-size: 26px;
+}
+    .Subtitle{
+        text-align: center;
+        color: #888888;
+        font-size: 14px;
+    }
+        .Subtitle .horizonLine{
+            display:inline-block;
+            width:130px;
+            height: 1px;
+            background: #888888;
+            vertical-align: middle;
+        }
+        .Subtitle span{
+            margin:6px 13px 35px 6px;
+        }
+.travel .more a{
+    color: #BF1A20;
+    float: right;
+    font-size: 23px;
+    margin-bottom: 43px;
+}
+.travel .info{
+    display:flex;
+    justify-content: space-between;
+    width: 1200px;
+    margin:64px auto;
+    text-align: center;
+}
+    .travel .info p{
+        margin:21px 0;
+    }
