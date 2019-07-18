@@ -7,6 +7,7 @@ import Register from "../pages/register/index"
 import RegisteredSuccessfully from "../pages/registered-successfully/index"
 import PaymentCode from "../pages/payment-code/index"
 import User from "../pages/user/index"
+import UserInfo from "../pages/userInfo/index"
 class Router extends Component{
     constructor(props){
         super(props);
@@ -27,6 +28,7 @@ class Router extends Component{
                         <Route path="/registeredSuccessfully" component={RegisteredSuccessfully}/>
                         <Route path="/paymentCode" component={PaymentCode}/>
                         <Route path="/user" component={User}/>
+                        <Route path="/userInfo" component={UserInfo}/>
                     </Switch>
                 </App>
             </HashRouter>

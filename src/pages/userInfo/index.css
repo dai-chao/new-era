@@ -1,0 +1,24 @@
+.userInfo-content{
+    width: 1200px;
+    margin:0 auto;
+}
+.info-manage{
+    display: flex;
+    justify-content: space-between;
+}
+.info-manage .head-pic,.info-manage .info-txt{
+    height:334px;
+    border:1px solid #D0D0D0;
+}
+.info-manage .head-pic{
+    width:334px;
+}
+.info-manage .info-txt{
+    width:846px;
+}
+.payment-manage{
+    width: 1200px;
+    height: 334px;
+    border:1px solid #D0D0D0;
+    margin: 0 auto;
+}
