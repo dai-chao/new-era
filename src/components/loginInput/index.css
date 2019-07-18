@@ -46,3 +46,9 @@
     background: #eee;
     color: #999;
 }
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}

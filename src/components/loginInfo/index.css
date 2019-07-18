@@ -48,6 +48,61 @@
 .agree-txt{
     cursor: pointer;
 }
+.phoneNumber,.authCode{
+    position: relative;
+    display: flex;
+}
+.phoneNumber{
+    margin-bottom:20px;
+}
+.name-icon,.code-icon{
+    width:63px;
+    height: 58px;
+    background: #EEEEEE;
+    text-align: center;
+    line-height: 58px;
+}
+input{
+    outline: none;
+}
+::-webkit-input-placeholder {
+    text-indent: 0.7em;
+    font-size: 14px;
+}
+.phoneNum{
+    width: 390px;
+    height: 58px;
+    border:1px solid#E5E5E5 ;
+}
+.codeNum{
+    width:173px;
+    height: 58px;
+    border:1px solid #E5E5E5;
+}
+.click-code{
+    width:197px;
+    height:58px;
+    background:#BF1A20;
+    font-size: 16px;
+    outline:none;
+    border:none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.Codeclicked{
+    background: #eee;
+    color: #999;
+}
+.show{
+    display: block;
+}
+.hidden{
+    display: none;
+}
 /* antd样式 */
 .ant-tabs-nav{
     border-bottom: 9px solid #eee;
@@ -100,6 +155,8 @@
     .agree-info{
         height: 351px;
         margin-top: 19px;
+        border-bottom: 1px solid #000;
+        margin-bottom: 20px;
     }
     .agree-title h2{
         font-size: 24px;

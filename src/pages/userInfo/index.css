@@ -20,5 +20,40 @@
     width: 1200px;
     height: 334px;
     border:1px solid #D0D0D0;
-    margin: 0 auto;
+    margin: 20px auto;
 }
+.address-manage{
+    width:1200px;
+    height:335px;
+    border:1px solid #D0D0D0;
+    margin-bottom: 79px;
+}
+.Subtitle p{
+    text-align: left
+}
+.Subtitle{
+    margin-top: 38px;
+}
+.head-pic p{
+    box-sizing: border-box;
+    width:97px;
+    height:22px;
+    font-size:24px;
+    font-family:MicrosoftYaHei;
+    font-weight:400;
+    color:rgba(191,26,32,1);
+    margin-left: 20px;
+    margin-top: 18px;
+}
+
+.avatar-uploader > .ant-upload {
+    width: 128px;
+    height: 128px;
+  }
+
+  .inputfile {
+    z-index: -11111;  width: 0px;  height: 1px;
+}
+
+
+

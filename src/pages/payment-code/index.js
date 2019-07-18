@@ -3,6 +3,8 @@ import { withRouter , Link } from "react-router-dom"
 import Footer from "../../components/footer/index"
 import "./index.css"
 import { Form, Select, Input, Button } from 'antd';
+import API from '../../netwoke/api.js'
+import axios from 'axios';
 const { Option } = Select;
 
 class PaymentCode extends Component{
@@ -35,6 +37,12 @@ class PaymentCode extends Component{
     }
     componentWillMount() {
     }
+    componentDidMount() {
+        axios.post(API.findQuestion).then(({data})=>{
+            console.log(data)
+        })
+    }
+
     render() {
         return(
             <div>

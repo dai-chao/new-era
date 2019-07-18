@@ -80,11 +80,11 @@ class Header extends Component{
                         </li>
 
                         <li className="login-box">
-                            <Link to="/login?type=1">
+                            <Link to="/register?type=1">
                                 登陆
                             </Link>
                             <span></span>
-                            <Link className="zhuce" to="/login?type=2">
+                            <Link className="zhuce" to="/register?type=2">
                                 注册
                             </Link>
                         </li>
