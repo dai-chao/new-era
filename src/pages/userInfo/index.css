@@ -16,17 +16,72 @@
 .info-manage .info-txt{
     width:846px;
 }
+.info-txt{
+    padding:50px 0 0 129px;
+}
+    .info-txt .item input,.info-txt .item select{
+        outline: none;
+        border:1px solid rgba(223,223,223,1);
+        border-radius:4px;
+        height: 40px;
+    }
+.info-txt .item{
+    margin-bottom: 11px;
+}
+    .info-txt .item select{
+
+    }
+    .info-txt .txt-title{
+        width: 74px;
+        display: inline-block;
+    }
 .payment-manage{
     width: 1200px;
-    height: 334px;
+    /*height: 334px;*/
     border:1px solid #D0D0D0;
     margin: 20px auto;
+    padding:19px 0 0 21px;
 }
 .address-manage{
     width:1200px;
-    height:335px;
     border:1px solid #D0D0D0;
     margin-bottom: 79px;
+    padding:19px 21px 18px 21px;
+}
+.payment-manage .payment-content{
+    text-align: center;
+    margin-top: 20px;
+}
+.payment-manage input{
+    width:360px;
+    height:40px;
+    background:rgba(255,255,255,1);
+    border:1px solid rgba(223,223,223,1);
+    border-radius:4px;
+    margin-bottom: 10px;
+}
+.payment-manage .phoneCode{
+    display: flex;
+    justify-content:space-between;
+    width: 360px;
+    margin: 0 auto;
+}
+.payment-manage .manage-btn{
+    width:162px;
+    height:40px;
+    background: #BF1A20;
+    border-radius: 4px;
+    border: none;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color: #fff;
+}
+.payment-manage .confirm{
+    margin: 20px 0;
+}
+.payment-manage .phoneCode input{
+    width: 188px;
+    margin-right: 10px;
 }
 .Subtitle p{
     text-align: left
@@ -54,6 +109,194 @@
   .inputfile {
     z-index: -11111;  width: 0px;  height: 1px;
 }
-
-
-
+  .manage-title{
+      display: flex;
+      justify-content: space-between;
+  }
+.manage-title h2{
+    font-size:24px;
+    font-family:MicrosoftYaHei;
+    color:#BF1A20;
+}
+.manage-title span{
+    color: #333;
+    font-size: 16px;
+}
+.address-manage .manage-title{
+    border-bottom: 1px solid #f5f2f0;
+}
+.addAddress-title{
+    display: flex;
+    justify-content: space-between;
+    font-size:18px;
+    font-family:MicrosoftYaHei;
+    color: #333;
+    height: 37px;
+    line-height: 37px;
+}
+.addAddress-info{
+    margin-top: 24px;
+}
+.addAddress-info .address-consignee input{
+    width: 360px;
+}
+.addAddress-info .address-shipping input{
+    width: 360px;
+}
+.addAddress-info .address-contact input{
+    width: 188px;
+}
+.addAddress-info .address-contact button{
+    background: #BF1A20;
+    outline:none;
+    border:none;
+    width:162px;
+    height:40px;
+    border-radius: 4px;
+    font-size:16px;
+    font-family:MicrosoftYaHei;
+    color: #fff;
+    margin: 0 60px 0 10px;
+}
+.addAddress-content .addAddress-item{
+    margin-bottom: 10px;
+}
+.addAddress-content .addAddress-item input{
+    height:40px;
+    border:1px solid #DFDFDF;
+    border-radius:4px;
+    outline: none;
+    padding-left: 20px;
+}
+.addAddress-content .addAddress-key{
+    display: inline-block;
+    width: 123px;
+}
+.add-newAddress{
+    cursor: pointer;
+    width: 165px;
+    height: 40px;
+    border:1px solid #1567E0;
+    border-radius:4px;
+    color: #1567E0;
+    font-size: 16px;
+    display: flex;
+    padding: 0 19px;
+    align-items: center;
+    justify-content: space-between;
+}
+/*antd样式*/
+.ant-modal-header{
+    padding:20px 16px;
+}
+.ant-modal-footer{
+    display: none;
+}
+.ant-modal{
+    width: 1200px!important;
+    margin: 0 auto;
+}
+.modal-address input{
+    border:1px solid #DFDFDF;
+    height: 40px;
+    outline: none;
+    border-radius: 4px;
+}
+.modal-address{
+    margin-bottom: 20px;
+}
+.modal-address p{
+    font-size:24px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color: #999999;
+}
+.modal-address .star-icon{
+    color: #BF1A20;
+}
+.ant-modal-title{
+    font-size:24px;
+    font-family:MicrosoftYaHei;
+    color: #333;
+}
+.modal-address p{
+    margin-bottom: 19px;
+}
+.ant-modal-body{
+    padding:80px 32px;
+}
+.modal-Consignee input{
+    width: 360px;
+}
+.modal-addressParts input{
+    width: 728px;
+}
+.modal-areaNum{
+    font-size:22px;
+    font-family:MicrosoftYaHei;
+    color: #333;
+    margin-right: 108px;
+}
+.modal-mobileNum input,.modal-machineNum input{
+    width: 273px;
+}
+.modal-emailAddress input{
+    width: 728px;
+}
+.modal-aliasAddress input{
+    width: 431px;
+}
+.modal-aliasAddress .modal-aliasAddress-tips{
+    font-size:24px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color: #999;
+    margin: 0 28px 0 21px;
+}
+.modal-aliasAddress .address_type{
+    display: inline-block;
+}
+.modal-aliasAddress .address_type span{
+    display: inline-block;
+    padding: 8px 20px;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    border: 1px solid #DFDFDF;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+.info-sex .ant-select{
+    width: 93px;
+    height: 40px;
+}
+.info-sex .ant-select-selection--single{
+    height: 40px;
+    line-height: 40px;
+}
+.info-sex .ant-select-selection__rendered{
+    line-height: 40px;
+}
+.address-area .ant-select{
+    height: 40px;
+    margin-right: 9px;
+}
+.address-area .ant-select-selection--single{
+    height: 40px;
+}
+.address-area .ant-select-selection__rendered{
+    line-height: 40px;
+}
+.modal-saveAddress-btn{
+    width:122px;
+    height:40px;
+    border-radius: 4px;
+    background: #DFDFDF;
+    font-size:20px;
+    font-family:MicrosoftYaHei;
+    font-weight:bold;
+    color: #333;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}

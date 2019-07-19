@@ -68,12 +68,6 @@ class LoginInfo extends Component{
     getLoginCode(){
         var that=this;
         console.log(that.state.phoneInput)
-        // var xhr=new XMLHttpRequest();
-        // xhr.open();
-        // xhr.send();
-        // xhr.onload(function (res) {
-        //     console.log(res)
-        // })
 
         that.setState({
             isGetLoginCode:true
@@ -104,7 +98,7 @@ class LoginInfo extends Component{
             .then(function (res) {
                 // console.log(res);
                 if(res.code==200){
-
+                    alert('验证码已发送到你的手机请注意查收')
                 }
             })
             .catch(function (error) {
